@@ -1,0 +1,65 @@
+
+> summary(plsFit)
+Data: 	X dimension: 161 100 
+	Y dimension: 161 1
+Fit method: kernelpls
+Number of components considered: 100
+
+VALIDATION: RMSEP
+Cross-validated using 10 random segments.
+       (Intercept)  1 comps  2 comps  3 comps  4 comps  5 comps  6 comps  7 comps  8 comps  9 comps  10 comps  11 comps
+CV           12.58    11.09    7.418    4.583    3.568    3.178    3.064    2.923    2.467    2.311     2.233     2.262
+adjCV        12.58    11.08    7.408    4.574    3.551    3.167    3.064    2.926    2.497    2.287     2.215     2.237
+       12 comps  13 comps  14 comps  15 comps  16 comps  17 comps  18 comps  19 comps  20 comps  21 comps  22 comps  23 comps
+CV        2.288     2.219     1.939     1.951     1.723     1.561     1.572     1.581     1.633     1.661     1.703     1.687
+adjCV     2.231     2.165     1.899     1.897     1.687     1.533     1.543     1.552     1.599     1.622     1.655     1.641
+       24 comps  25 comps  26 comps  27 comps  28 comps  29 comps  30 comps  31 comps  32 comps  33 comps  34 comps  35 comps
+CV        1.720     1.717     1.710     1.801     1.755     1.726     1.782     1.834     1.856     1.926     1.949     2.005
+adjCV     1.674     1.668     1.661     1.742     1.698     1.670     1.721     1.769     1.790     1.856     1.876     1.927
+       36 comps  37 comps  38 comps  39 comps  40 comps  41 comps  42 comps  43 comps  44 comps  45 comps  46 comps  47 comps
+CV        2.094     2.222     2.296     2.351     2.353     2.378     2.383     2.354     2.316     2.286     2.266     2.242
+adjCV     2.009     2.129     2.199     2.249     2.251     2.274     2.279     2.250     2.215     2.186     2.167     2.145
+       48 comps  49 comps  50 comps  51 comps  52 comps  53 comps  54 comps  55 comps  56 comps  57 comps  58 comps  59 comps
+CV        2.198     2.152     2.136     2.089     2.109     2.094     2.086     2.069     2.044     2.053     2.054     2.038
+adjCV     2.102     2.060     2.045     2.000     2.019     2.005     1.997     1.981     1.957     1.967     1.967     1.952
+       60 comps  61 comps  62 comps  63 comps  64 comps  65 comps  66 comps  67 comps  68 comps  69 comps  70 comps  71 comps
+CV        2.049     2.057     2.066     2.068     2.064     2.059     2.050     2.048     2.054     2.059     2.060     2.065
+adjCV     1.962     1.970     1.978     1.981     1.977     1.972     1.964     1.962     1.967     1.972     1.973     1.978
+       72 comps  73 comps  74 comps  75 comps  76 comps  77 comps  78 comps  79 comps  80 comps  81 comps  82 comps  83 comps
+CV        2.064     2.062     2.068     2.067     2.062     2.066     2.074     2.078     2.081     2.079     2.079     2.073
+adjCV     1.977     1.975     1.981     1.980     1.976     1.979     1.986     1.990     1.993     1.991     1.991     1.985
+       84 comps  85 comps  86 comps  87 comps  88 comps  89 comps  90 comps  91 comps  92 comps  93 comps  94 comps  95 comps
+CV        2.062     2.060     2.059     2.059     2.058     2.058     2.057     2.056     2.056     2.056     2.056     2.056
+adjCV     1.975     1.973     1.972     1.973     1.971     1.971     1.970     1.970     1.969     1.969     1.969     1.969
+       96 comps  97 comps  98 comps  99 comps  100 comps
+CV        2.056     2.056     2.056     2.056      2.056
+adjCV     1.969     1.969     1.969     1.969      1.969
+
+TRAINING: % variance explained
+     1 comps  2 comps  3 comps  4 comps  5 comps  6 comps  7 comps  8 comps  9 comps  10 comps  11 comps  12 comps  13 comps
+X      98.84    99.56    99.90    99.93   100.00   100.00   100.00   100.00   100.00     100.0    100.00    100.00    100.00
+fat    23.31    66.49    87.59    93.16    94.36    94.86    95.67    96.78    97.66      97.8     97.92     98.37     98.58
+     14 comps  15 comps  16 comps  17 comps  18 comps  19 comps  20 comps  21 comps  22 comps  23 comps  24 comps  25 comps
+X      100.00    100.00     100.0     100.0    100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00
+fat     98.76     98.91      99.1      99.2     99.24     99.27     99.31     99.35     99.41     99.45     99.48     99.52
+     26 comps  27 comps  28 comps  29 comps  30 comps  31 comps  32 comps  33 comps  34 comps  35 comps  36 comps  37 comps
+X      100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00     100.0    100.00    100.00
+fat     99.55     99.58     99.61     99.63     99.64     99.66     99.67     99.68     99.69      99.7     99.72     99.73
+     38 comps  39 comps  40 comps  41 comps  42 comps  43 comps  44 comps  45 comps  46 comps  47 comps  48 comps  49 comps
+X      100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00     100.0
+fat     99.74     99.75     99.76     99.77     99.77     99.78     99.78     99.78     99.79     99.79     99.79      99.8
+     50 comps  51 comps  52 comps  53 comps  54 comps  55 comps  56 comps  57 comps  58 comps  59 comps  60 comps  61 comps
+X       100.0     100.0     100.0     100.0    100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00
+fat      99.8      99.8      99.8      99.8     99.81     99.81     99.81     99.81     99.81     99.81     99.81     99.81
+     62 comps  63 comps  64 comps  65 comps  66 comps  67 comps  68 comps  69 comps  70 comps  71 comps  72 comps  73 comps
+X      100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00
+fat     99.81     99.81     99.81     99.81     99.81     99.81     99.81     99.81     99.81     99.81     99.81     99.81
+     74 comps  75 comps  76 comps  77 comps  78 comps  79 comps  80 comps  81 comps  82 comps  83 comps  84 comps  85 comps
+X      100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00
+fat     99.81     99.81     99.81     99.81     99.81     99.81     99.81     99.81     99.81     99.81     99.81     99.81
+     86 comps  87 comps  88 comps  89 comps  90 comps  91 comps  92 comps  93 comps  94 comps  95 comps  96 comps  97 comps
+X      100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00    100.00
+fat     99.81     99.81     99.81     99.81     99.81     99.81     99.81     99.81     99.81     99.81     99.81     99.81
+     98 comps  99 comps  100 comps
+X      100.00    100.00     100.00
+fat     99.81     99.81      99.81
